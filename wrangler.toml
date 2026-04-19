@@ -1,2 +1,4 @@
 name = "nurse-yorimichi"
-pages_build_output_dir = "public"
+
+[assets]
+directory = "./public"
