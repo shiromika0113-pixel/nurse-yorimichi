@@ -1,8 +1,2 @@
 name = "nurse-yorimichi"
 pages_build_output_dir = "public"
-
-[build]
-command = "hugo --minify"
-
-[build.environment_variables]
-HUGO_VERSION = "0.160.1"
