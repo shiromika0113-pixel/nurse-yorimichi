@@ -1,0 +1,23 @@
+baseURL: "https://nurse-yorimichi.com/"
+languageCode: ja
+title: ナースのよりみち
+theme: PaperMod
+hasCJKLanguage: true
+paginate: 10
+
+params:
+  homeInfoParams:
+    Title: "ナースのよりみち へようこそ"
+    Content: "現役看護師が書く、仕事・生活・学びのブログです。"
+  socialIcons:
+    - name: "rss"
+      url: "/index.xml"
+
+menu:
+  main:
+    - name: 記事一覧
+      url: /posts/
+      weight: 1
+    - name: プロフィール
+      url: /about/
+      weight: 2
