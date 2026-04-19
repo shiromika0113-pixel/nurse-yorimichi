@@ -4,6 +4,7 @@ title: ナースのよりみち
 theme: PaperMod
 hasCJKLanguage: true
 paginate: 10
+googleAnalytics: "G-490J7GGGLP"
 
 params:
   homeInfoParams:
