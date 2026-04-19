@@ -6,6 +6,11 @@ hasCJKLanguage: true
 paginate: 10
 googleAnalytics: "G-490J7GGGLP"
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 params:
   homeInfoParams:
     Title: "ナースのよりみち へようこそ"
