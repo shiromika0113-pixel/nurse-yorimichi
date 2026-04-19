@@ -21,3 +21,9 @@ menu:
     - name: プロフィール
       url: /about/
       weight: 2
+    - name: お問い合わせ
+      url: /contact/
+      weight: 3
+    - name: プライバシーポリシー
+      url: /privacy/
+      weight: 4
