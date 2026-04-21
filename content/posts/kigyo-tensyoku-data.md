@@ -378,3 +378,13 @@ doda「転職成功者の平均年齢調査」（2024年実績）でも、転職
 - 公益財団法人日本医療総合研究所「急性期一般病院における看護職員の腰痛・頸肩腕痛の実態調査」（2012年）
 - 労働政策研究・研修機構（JILPT）「ビジネス・レーバー・トレンド 2025年8・9月号」
 - doda「転職するなら年齢は何歳まで？転職成功者の平均年齢調査」（2025年発表）
+
+<div style="border: 2px solid #c0392b; border-radius: 8px; padding: 20px; margin-top: 40px; background: #fff8f8;">
+<p style="color: #c0392b; font-weight: bold; font-size: 1.05em; margin: 0 0 14px 0;">📚 シリーズ：看護師の企業転職</p>
+<ul style="margin: 0; padding-left: 20px; line-height: 2.2;">
+<li>記事①：<strong>病院看護師が企業・異業種に転職したいと思うのは当然だった（本記事）</strong></li>
+<li>記事②：<a href="/posts/tensyoku-riyu-shibo-doki/">「なぜ企業に？」に答える転職理由・志望動機の作り方</a></li>
+<li>記事③：看護師の企業転職 職種別ガイド（産業保健師・CRC・MRほか）<span style="color: #aaa;">　近日公開</span></li>
+<li>記事④：企業面接・書類対策 完全マニュアル（履歴書・職務経歴書の書き方）<span style="color: #aaa;">　近日公開</span></li>
+</ul>
+</div>
