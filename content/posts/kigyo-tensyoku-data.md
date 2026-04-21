@@ -384,7 +384,8 @@ doda「転職成功者の平均年齢調査」（2024年実績）でも、転職
 <ul style="margin: 0; padding-left: 20px; line-height: 2.2;">
 <li>記事①：<strong>病院看護師が企業・異業種に転職したいと思うのは当然だった（本記事）</strong></li>
 <li>記事②：<a href="/posts/tensyoku-riyu-shibo-doki/">「なぜ企業に？」に答える転職理由・志望動機の作り方</a></li>
-<li>記事③：看護師の企業転職 職種別ガイド（産業保健師・CRC・MRほか）<span style="color: #aaa;">　近日公開</span></li>
+<li>記事③：<a href="/posts/sangyo-hokenshi-kanzen-guide/">産業保健師という働き方 完全ガイド</a></li>
 <li>記事④：企業面接・書類対策 完全マニュアル（履歴書・職務経歴書の書き方）<span style="color: #aaa;">　近日公開</span></li>
+<li>番外編：<a href="/posts/jiku-zurashi-tensyoku-guide/">看護師の「軸ずらし転職」ガイド　CRC・MR・ヘルスケアIT</a></li>
 </ul>
 </div>
