@@ -211,7 +211,7 @@ description: "産業保健師の仕事内容・資格要件・なり方・やり
 <li>記事①：<a href="/posts/kigyo-tensyoku-data/">病院看護師が企業・異業種に転職したいと思うのは当然だった──年収・労働時間・健康影響の実態と現実的な選択肢</a></li>
 <li>記事②：<a href="/posts/tensyoku-riyu-shibo-doki/">「なぜ企業に？」に答える転職理由・志望動機の作り方</a></li>
 <li>記事③：<strong>産業保健師という働き方 完全ガイド（本記事）</strong></li>
-<li>記事④：企業面接・書類対策 完全マニュアル（履歴書・職務経歴書の書き方）<span style="color: #aaa;">　近日公開</span></li>
+<li>記事④：<a href="/posts/shurui-mensetsu-kanzen-manual/">産業保健師を目指す看護師の書類・面接対策 完全マニュアル</a></li>
 <li>番外編：<a href="/posts/jiku-zurashi-tensyoku-guide/">看護師の「軸ずらし転職」ガイド　CRC・MR・ヘルスケアIT</a></li>
 </ul>
 </div>
