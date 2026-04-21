@@ -6,6 +6,10 @@ draft: false
 
 # はじめまして。「ナースのよりみち」を運営している"とし"です
 
+<div style="text-align: center; margin: 24px 0;">
+  <img src="/images/jikomanga.png" alt="自己紹介４コマ漫画" style="max-width: 480px; width: 100%; border-radius: 8px;">
+</div>
+
 このブログに来てくださって、ありがとうございます。
 
 この場所では、看護師・助産師・保健師として働く中で感じる「キャリアの悩み」や「働き方の迷い」について、私自身の経験をもとに発信しています。
