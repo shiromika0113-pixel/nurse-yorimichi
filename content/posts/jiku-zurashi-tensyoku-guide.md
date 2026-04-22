@@ -5,6 +5,10 @@ draft: false
 tags: ["転職", "キャリア", "企業転職", "CRC", "MR", "ヘルスケアIT", "軸ずらし転職"]
 categories: ["転職・キャリア"]
 description: "保健師資格なしでも目指せる看護師の異業種転職を徹底解説。CRC・MR・ヘルスケアIT・MSLそれぞれの仕事内容・活きる看護経験・転職のコツをまとめた「軸ずらし転職」完全ガイドです。"
+cover:
+  image: "/images/jiku-zurashi-tensyoku.png"
+  alt: "看護師の軸ずらし転職ガイド CRC・MR・ヘルスケアIT"
+  relative: false
 ---
 
 # 看護師の「軸ずらし転職」ガイド

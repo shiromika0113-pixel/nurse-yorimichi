@@ -5,6 +5,10 @@ draft: false
 tags: ["転職", "キャリア", "産業保健師", "企業転職", "職務経歴書", "面接対策"]
 categories: ["転職・キャリア"]
 description: "産業保健師志望の看護師向け書類・面接対策完全マニュアル。職務経歴書の構成・看護経験の変換例・自己PR・志望動機の例文・面接頻出質問への答え方を徹底解説します。"
+cover:
+  image: "/images/shurui-mensetsu-kanzen-manual.png"
+  alt: "産業保健師を目指す看護師の書類・面接対策完全マニュアル"
+  relative: false
 ---
 
 # 産業保健師を目指す看護師の書類・面接対策 完全マニュアル
