@@ -5,6 +5,10 @@ draft: false
 tags: ["転職", "キャリア", "企業転職", "志望動機", "面接対策"]
 categories: ["転職・キャリア"]
 description: "看護師が企業転職の面接で必ず聞かれる転職理由・志望動機の作り方を解説。ネガティブな本音をポジティブに変換するフレームワークと、産業保健師・CRC・MR別の例文を紹介します。"
+cover:
+  image: "/images/tensyoku-riyu-shibo-doki.png"
+  alt: "転職理由・志望動機の作り方"
+  relative: false
 ---
 
 # 「なぜ企業に？」に答える転職理由・志望動機の作り方

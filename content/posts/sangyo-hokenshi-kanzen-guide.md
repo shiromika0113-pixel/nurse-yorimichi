@@ -5,6 +5,10 @@ draft: false
 tags: ["転職", "キャリア", "産業保健師", "企業転職", "保健師"]
 categories: ["転職・キャリア"]
 description: "産業保健師の仕事内容・資格要件・なり方・やりがいと壁を徹底解説。看護師から産業保健師を目指す人のための完全ガイドです。"
+cover:
+  image: "/images/sangyo-hokenshi-kanzen-guide.png"
+  alt: "産業保健師という働き方 完全ガイド"
+  relative: false
 ---
 
 # 産業保健師という働き方 完全ガイド
