@@ -5,6 +5,10 @@ draft: false
 tags: ["転職", "キャリア", "転職コーチング"]
 categories: ["転職・キャリア"]
 description: "転職を考える看護師へ。お金をかける前に自分でできる5つの行動と、転職コーチングを検討するときに知っておきたい注意点を解説します。"
+cover:
+  image: "/images/tensyoku-coaching-chui.png"
+  alt: "看護師の転職、高額コーチングはまだ早い"
+  relative: false
 ---
 
 # 転職したい看護師へ。まず自分で動いてみよう｜高額コーチングに頼る前にできること

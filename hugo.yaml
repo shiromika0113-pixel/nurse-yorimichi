@@ -18,6 +18,12 @@ params:
   socialIcons:
     - name: "rss"
       url: "/index.xml"
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  cover:
+    linkFullImages: true
+    responsiveImages: true
 
 menu:
   main:

@@ -1,7 +1,7 @@
 /* =============================================
    ナースのよりみち カスタムデザイン
    ホワイト × スカイブルー × ネイビー
-   参考: tsuzukiblog.org スタイル
+   liberaluni.com 参考スタイル
    ============================================= */
 
 /* ---------- カラー変数 ---------- */
@@ -14,9 +14,6 @@
   --border: #c4d8ee;
   --code-bg: #e8f2fb;
   --hljs-bg: #1a3a5c;
-  --accent: #4a9fd4;
-  --accent-dark: #2e7eb8;
-  --navy: #1a3a5c;
 }
 
 /* ---------- 全体 ---------- */
@@ -28,78 +25,172 @@ body {
   background-color: #f4f8fd;
 }
 
-/* ---------- ヘッダー（固定・ネイビー） ---------- */
+/* ===================================================
+   ヘッダー（白背景・ロゴ左・ナビ右 liberaluni風）
+   =================================================== */
 .header {
-  background-color: #1a3a5c;
+  background-color: #ffffff;
+  border-bottom: 2px solid #4a9fd4;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.07);
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-.header .logo a,
-.header .logo span,
-.logo a,
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* ロゴ（サイト名） */
+.logo a {
+  color: #1a3a5c !important;
+  font-size: 1.3rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+}
+.logo a:hover {
+  color: #4a9fd4 !important;
+  text-decoration: none;
+}
+
+/* テーマ切り替えボタン */
+.logo-switches button {
+  color: #1a3a5c;
+}
+
+/* ナビゲーション */
+#menu {
+  display: flex;
+  gap: 0.2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 #menu a {
-  color: #ffffff !important;
+  color: #1e2a3a !important;
+  font-size: 0.92rem;
+  font-weight: 600;
+  padding: 0.4rem 0.7rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 #menu a:hover {
-  color: #a8d8f0 !important;
+  background-color: #e8f2fb;
+  color: #1a3a5c !important;
   text-decoration: none;
 }
 
-/* ---------- メインコンテナ幅 ---------- */
+#menu a span.active {
+  color: #4a9fd4;
+}
+
+/* ===================================================
+   メインコンテンツ幅
+   =================================================== */
 .main {
   max-width: 1100px;
+  padding: 1.5rem 1rem;
 }
 
-/* ---------- リンク色 ---------- */
-a {
-  color: #2e7eb8;
-  text-decoration: none;
-}
-a:hover {
-  color: #1a5a8a;
-  text-decoration: underline;
-}
-
-/* ---------- 見出し ---------- */
-h1, h2, h3, h4 {
-  color: #1a3a5c;
-  font-weight: 700;
+/* ===================================================
+   トップページ：記事一覧を2列グリッドに
+   =================================================== */
+body.list .main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  align-items: start;
 }
 
-/* ---------- 記事カード（tsuzukiblog風 影あり） ---------- */
+/* ウェルカムエリア・ページネーションは全幅 */
+body.list .main .home-info-container,
+body.list .main .page-footer,
+body.list .main .page-header,
+body.list .main .first-entry,
+body.list .main .md-content {
+  grid-column: 1 / -1;
+}
+
+/* ===================================================
+   記事カード（liberaluni風 白×影）
+   =================================================== */
 .post-entry {
   background-color: #ffffff;
   border: none;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
   transition: box-shadow 0.25s ease, transform 0.25s ease;
   overflow: hidden;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .post-entry:hover {
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.13);
-  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+  transform: translateY(-4px);
+}
+
+/* カードのサムネイル画像エリア */
+.post-entry .entry-cover {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background-color: #e8f2fb;
+}
+
+.post-entry .entry-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.post-entry:hover .entry-cover img {
+  transform: scale(1.04);
+}
+
+/* カードのテキスト部分 */
+.entry-header {
+  padding: 1rem 1.2rem 0.4rem;
+}
+
+.entry-content {
+  padding: 0 1.2rem;
+  font-size: 0.9rem;
+  color: #5a7a9a;
+  line-height: 1.6;
+}
+
+.entry-footer {
+  padding: 0.5rem 1.2rem 1rem;
 }
 
 /* カードタイトル */
 .post-entry .entry-header h2 {
-  font-size: 1.1rem;
-  line-height: 1.6;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.55;
   color: #1a3a5c;
+  margin: 0;
 }
 
 /* カードのカテゴリーバッジ */
 .post-categories a,
-.post-entry .entry-header .post-meta a[href*="/categories/"] {
+.post-entry .post-meta a[href*="/categories/"] {
   display: inline-block;
   background-color: #4a9fd4;
   color: #ffffff !important;
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: 700;
   padding: 2px 10px;
   border-radius: 3px;
@@ -107,13 +198,17 @@ h1, h2, h3, h4 {
   text-decoration: none;
 }
 
-/* ---------- 記事メタ情報（日付・読了時間） ---------- */
+/* ===================================================
+   記事メタ情報（日付・読了時間）
+   =================================================== */
 .post-meta {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   color: #5a7a9a;
 }
 
-/* ---------- タグ ---------- */
+/* ===================================================
+   タグ
+   =================================================== */
 .post-tags a {
   display: inline-block;
   background-color: #e8f2fb;
@@ -132,13 +227,26 @@ h1, h2, h3, h4 {
   text-decoration: none;
 }
 
-/* ---------- ホーム ウェルカムエリア ---------- */
+/* ===================================================
+   リンク色
+   =================================================== */
+a {
+  color: #2e7eb8;
+  text-decoration: none;
+}
+a:hover {
+  color: #1a5a8a;
+  text-decoration: underline;
+}
+
+/* ===================================================
+   ホーム ウェルカムエリア
+   =================================================== */
 .home-info-container {
   background: linear-gradient(135deg, #cce4f6 0%, #e8f2fb 100%);
   border-left: 5px solid #4a9fd4;
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 2rem 2.5rem;
-  margin-bottom: 2rem;
   box-shadow: 0 2px 8px rgba(74, 159, 212, 0.12);
 }
 
@@ -147,15 +255,29 @@ h1, h2, h3, h4 {
   font-size: 1rem;
 }
 
-/* ---------- 記事本文 ---------- */
+/* ===================================================
+   記事ページ本文
+   =================================================== */
+h1, h2, h3, h4 {
+  color: #1a3a5c;
+  font-weight: 700;
+}
+
+/* 記事タイトル */
+.post-title {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
 .post-content {
   font-size: 17px;
   line-height: 1.9;
   color: #1e2a3a;
 }
 
-/* h2 見出し（左ボーダー＋背景） */
+/* h2 見出し */
 .post-content h2 {
+  font-size: 1.35rem;
   border-left: 5px solid #4a9fd4;
   border-bottom: 1px solid #c4d8ee;
   padding: 0.4rem 0.8rem;
@@ -166,12 +288,15 @@ h1, h2, h3, h4 {
 
 /* h3 見出し */
 .post-content h3 {
+  font-size: 1.15rem;
   border-left: 4px solid #4a9fd4;
   padding-left: 0.7rem;
   margin-top: 2rem;
 }
 
-/* ---------- 目次 ---------- */
+/* ===================================================
+   目次
+   =================================================== */
 .toc {
   background-color: #f4f8fd;
   border: 1px solid #c4d8ee;
@@ -190,7 +315,9 @@ h1, h2, h3, h4 {
   color: #2e7eb8;
 }
 
-/* ---------- 引用 ---------- */
+/* ===================================================
+   引用・コード
+   =================================================== */
 blockquote {
   border-left: 4px solid #4a9fd4;
   background-color: #f4f8fd;
@@ -201,7 +328,6 @@ blockquote {
   margin: 1.5rem 0;
 }
 
-/* ---------- インラインコード ---------- */
 code {
   background-color: #e8f2fb;
   color: #1a3a5c;
@@ -210,7 +336,9 @@ code {
   font-size: 0.9em;
 }
 
-/* ---------- フォームボタン ---------- */
+/* ===================================================
+   フォームボタン
+   =================================================== */
 button[type="submit"],
 input[type="submit"] {
   background-color: #4a9fd4;
@@ -228,7 +356,9 @@ input[type="submit"]:hover {
   background-color: #2e7eb8;
 }
 
-/* ---------- フッター ---------- */
+/* ===================================================
+   フッター
+   =================================================== */
 .footer {
   background-color: #1a3a5c;
   color: #a0c4d8;
@@ -242,7 +372,9 @@ input[type="submit"]:hover {
   color: #ffffff;
 }
 
-/* ---------- ページネーション ---------- */
+/* ===================================================
+   ページネーション
+   =================================================== */
 .pagination a {
   color: #2e7eb8;
   border: 1px solid #c4d8ee;
@@ -254,29 +386,47 @@ input[type="submit"]:hover {
   color: #ffffff;
 }
 
-/* ---------- 区切り線 ---------- */
+/* ===================================================
+   区切り線・ナビ
+   =================================================== */
 hr {
   border: none;
   border-top: 1px solid #c4d8ee;
   margin: 2rem 0;
 }
 
-/* ---------- 「戻る」「次へ」ナビ ---------- */
 .post-nav {
   border-top: 1px solid #c4d8ee;
   padding-top: 1.5rem;
   margin-top: 2rem;
 }
 
-/* ---------- スマホ対応 ---------- */
+/* ===================================================
+   スマホ対応（1列に戻す）
+   =================================================== */
 @media (max-width: 768px) {
   body {
     font-size: 15px;
   }
+
+  body.list .main {
+    grid-template-columns: 1fr;
+  }
+
   .home-info-container {
     padding: 1.2rem 1.5rem;
   }
-  .post-entry {
-    margin-bottom: 1rem;
+
+  .header-nav {
+    padding: 0 1rem;
+  }
+
+  .logo a {
+    font-size: 1.1rem;
+  }
+
+  #menu a {
+    font-size: 0.82rem;
+    padding: 0.3rem 0.5rem;
   }
 }
