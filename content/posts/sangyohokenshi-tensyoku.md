@@ -65,6 +65,11 @@ cover:
 
 夜勤がなく定時で帰れる日が多いのは、体力的に消耗していた病棟時代と比べると大きな変化でした。一方で「誰かに指示されて動く」よりも「自分で課題を見つけて動く」力が求められるため、最初は戸惑いを感じる場面もあります。
 
+<div style="margin: 32px 0; text-align: center;">
+  <img src="/images/sangyohokenshi-4koma.png" alt="産業保健師の1日を描いた4コマ漫画" style="max-width: 540px; width: 100%; border-radius: 12px;">
+  <p style="font-size: 0.85em; color: #888; margin-top: 8px;">産業保健師の1日のイメージ。「働く人の心と体の健康を支えるパートナー」としての仕事をまとめました。</p>
+</div>
+
 ---
 
 ## 産業保健師に向いている看護師の特徴
