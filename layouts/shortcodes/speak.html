@@ -1,0 +1,38 @@
+{{/*
+使い方:
+  著者（とし）: {{< speak char="toshi" >}}テキスト{{< /speak >}}
+  読者（悩み）: {{< speak char="reader-nayami" >}}テキスト{{< /speak >}}
+  読者（疑問）: {{< speak char="reader-gimon" >}}テキスト{{< /speak >}}
+  読者（気づき）: {{< speak char="reader-kidzuki" >}}テキスト{{< /speak >}}
+*/}}
+
+{{ $char := .Get "char" }}
+{{ $isToshi := eq $char "toshi" }}
+
+{{ if $isToshi }}
+{{/* とし（著者）は右側に画像、左に吹き出し */}}
+<div class="speak-wrap speak-toshi">
+  <div class="speak-bubble speak-bubble-toshi">
+    <p>{{ .Inner | markdownify }}</p>
+  </div>
+  <div class="speak-icon">
+    <img src="/images/characters/toshi.png" alt="とし">
+    <span class="speak-name">とし</span>
+  </div>
+</div>
+{{ else }}
+{{/* 読者は左側に画像、右に吹き出し */}}
+{{ $label := "読者" }}
+{{ if eq $char "reader-nayami" }}{{ $label = "読者" }}{{ end }}
+{{ if eq $char "reader-gimon" }}{{ $label = "読者" }}{{ end }}
+{{ if eq $char "reader-kidzuki" }}{{ $label = "読者" }}{{ end }}
+<div class="speak-wrap speak-reader">
+  <div class="speak-icon">
+    <img src="/images/characters/{{ $char }}.png" alt="読者">
+    <span class="speak-name">{{ $label }}</span>
+  </div>
+  <div class="speak-bubble speak-bubble-reader">
+    <p>{{ .Inner | markdownify }}</p>
+  </div>
+</div>
+{{ end }}
