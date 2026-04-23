@@ -484,7 +484,7 @@ hr {
 
 /* とし吹き出し（左：アイコン、右：吹き出し） */
 .speak-toshi {
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
 .speak-bubble-toshi {
