@@ -453,9 +453,9 @@ hr {
   margin: 0;
 }
 
-/* 読者吹き出し（左：アイコン、右：吹き出し） */
+/* 読者吹き出し（右：アイコン、左：吹き出し） */
 .speak-reader {
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
 .speak-bubble-reader {
@@ -464,27 +464,27 @@ hr {
   color: #1e2a3a;
 }
 
-/* 読者の吹き出し三角（左向き） */
+/* 読者の吹き出し三角（右向き） */
 .speak-bubble-reader::before {
   content: "";
   position: absolute;
   top: 18px;
-  left: -12px;
+  right: -12px;
   border: 6px solid transparent;
-  border-right-color: #c4d8ee;
+  border-left-color: #c4d8ee;
 }
 .speak-bubble-reader::after {
   content: "";
   position: absolute;
   top: 20px;
-  left: -8px;
+  right: -8px;
   border: 4px solid transparent;
-  border-right-color: #ffffff;
+  border-left-color: #ffffff;
 }
 
-/* とし吹き出し（左：吹き出し、右：アイコン） */
+/* とし吹き出し（左：アイコン、右：吹き出し） */
 .speak-toshi {
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .speak-bubble-toshi {
@@ -493,22 +493,22 @@ hr {
   color: #1e2a3a;
 }
 
-/* としの吹き出し三角（右向き） */
+/* としの吹き出し三角（左向き） */
 .speak-bubble-toshi::before {
   content: "";
   position: absolute;
   top: 18px;
-  right: -12px;
+  left: -12px;
   border: 6px solid transparent;
-  border-left-color: #7dc9a0;
+  border-right-color: #7dc9a0;
 }
 .speak-bubble-toshi::after {
   content: "";
   position: absolute;
   top: 20px;
-  right: -8px;
+  left: -8px;
   border: 4px solid transparent;
-  border-left-color: #e0f3e8;
+  border-right-color: #e0f3e8;
 }
 
 /* スマホ対応 */
