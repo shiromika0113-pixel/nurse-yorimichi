@@ -33,6 +33,26 @@ draft: false
 - 応援ナースとして勤務しながら産業保健師へ転職活動（8ヶ月・30社以上）
 - 産業保健師（労働衛生機関）を経て、現在：訪問看護師として勤務
 
+---
+
+### オーストラリアでのワーホリ時代
+
+看護師を続けながら、一度ちゃんと「外の世界を見てみたい」と思ってオーストラリアへ。パース・シドニー・ウルルと各地を旅しながら、アシスタントナースとして現地で働いた時間は、今の自分の大きな土台になっています。
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 24px 0;">
+  <img src="/images/australia/IMG_9310.jpg" alt="パースの夜景" style="width: 100%; border-radius: 8px; object-fit: cover; aspect-ratio: 3/4;">
+  <img src="/images/australia/IMG_9340.jpg" alt="ジャカランダの花" style="width: 100%; border-radius: 8px; object-fit: cover; aspect-ratio: 3/4;">
+  <img src="/images/australia/IMG_8033.jpg" alt="シドニーオペラハウス" style="width: 100%; border-radius: 8px; object-fit: cover; aspect-ratio: 3/4;">
+  <img src="/images/australia/IMG_8504.jpg" alt="ウルル（エアーズロック）" style="width: 100%; border-radius: 8px; object-fit: cover; aspect-ratio: 3/4;">
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 0 0 24px;">
+  <img src="/images/australia/IMG_9497.jpg" alt="ピナクルズの夕日" style="width: 100%; border-radius: 8px; object-fit: cover; aspect-ratio: 3/4;">
+  <img src="/images/australia/IMG_9651.jpg" alt="ロットネスト島のクオッカ" style="width: 100%; border-radius: 8px; object-fit: cover; aspect-ratio: 3/4;">
+</div>
+
+---
+
 一見すると「いろいろ経験していていいですね」と言われることもありますが、正直に言うと、ずっと順調だったわけではありません。転職活動をしていたとき、こんなことを言われたことがあります。
 
 「あなたの強みがよく分かりません」「キャリアに一貫性がないですね」
