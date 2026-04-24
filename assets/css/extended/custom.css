@@ -108,7 +108,7 @@ body.list .main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
-  align-items: stretch;
+  align-items: start;
 }
 
 /* ウェルカムエリア・ページネーションは全幅 */
@@ -143,15 +143,14 @@ body.list .main .md-content {
 /* カードのサムネイル画像エリア */
 .post-entry .entry-cover {
   width: 100%;
-  aspect-ratio: 16 / 9;
   overflow: hidden;
-  background-color: #f4f8fd;
+  background-color: #ffffff;
 }
 
 .post-entry .entry-cover img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   display: block;
   transition: transform 0.3s ease;
 }
