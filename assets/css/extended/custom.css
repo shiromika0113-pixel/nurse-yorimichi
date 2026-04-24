@@ -140,6 +140,11 @@ body.list .main .md-content {
   transform: translateY(-4px);
 }
 
+/* タグ・カテゴリーページでもサムネイルを表示（PaperModデフォルトを上書き） */
+.tag-entry .entry-cover {
+  display: block !important;
+}
+
 /* カードのサムネイル画像エリア */
 .post-entry .entry-cover {
   width: 100%;
