@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>看護師転職 on ナースのよりみち</title><link>https://nurse-yorimichi.com/tags/%E7%9C%8B%E8%AD%B7%E5%B8%AB%E8%BB%A2%E8%81%B7/</link><description>Recent content in 看護師転職 on ナースのよりみち</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nurse-yorimichi.com/tags/%E7%9C%8B%E8%AD%B7%E5%B8%AB%E8%BB%A2%E8%81%B7/index.xml" rel="self" type="application/rss+xml"/><item><title>転職エージェントに好かれよう｜仕組みを知ると転職活動が変わる</title><link>https://nurse-yorimichi.com/posts/tensyoku-agent-katsuyojutsu/</link><pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate><guid>https://nurse-yorimichi.com/posts/tensyoku-agent-katsuyojutsu/</guid><description>転職エージェントのビジネスモデルを知るだけで、転職活動の質が大きく変わります。エージェントに好かれる利用者になるための5つの具体的な行動を、看護師目線で解説します。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>看護師転職 on ナースのよりみち</title>
+    <link>http://localhost:1313/tags/%E7%9C%8B%E8%AD%B7%E5%B8%AB%E8%BB%A2%E8%81%B7/</link>
+    <description>Recent content in 看護師転職 on ナースのよりみち</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E7%9C%8B%E8%AD%B7%E5%B8%AB%E8%BB%A2%E8%81%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>転職エージェントに好かれよう｜仕組みを知ると転職活動が変わる</title>
+      <link>http://localhost:1313/posts/tensyoku-agent-katsuyojutsu/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tensyoku-agent-katsuyojutsu/</guid>
+      <description>転職エージェントのビジネスモデルを知るだけで、転職活動の質が大きく変わります。エージェントに好かれる利用者になるための5つの具体的な行動を、看護師目線で解説します。</description>
+    </item>
+  </channel>
+</rss>
