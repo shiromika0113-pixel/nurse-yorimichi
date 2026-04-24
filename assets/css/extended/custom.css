@@ -242,6 +242,14 @@ a:hover {
 /* ===================================================
    ホーム ウェルカムエリア
    =================================================== */
+.home-info {
+  background: linear-gradient(135deg, #cce4f6 0%, #e8f2fb 100%);
+  border-radius: 14px;
+  padding: 2rem 2.5rem;
+  box-shadow: 0 2px 8px rgba(74, 159, 212, 0.12);
+  border: none !important;
+}
+
 .home-info-container {
   background: linear-gradient(135deg, #cce4f6 0%, #e8f2fb 100%);
   border-left: 5px solid #4a9fd4;
@@ -253,6 +261,120 @@ a:hover {
 .home-info-container .entry-content p {
   color: #1e2a3a;
   font-size: 1rem;
+}
+
+/* プロフィールエリア */
+.home-profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+
+.home-profile-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.home-profile-icon img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4a9fd4;
+  box-shadow: 0 2px 8px rgba(74,159,212,0.2);
+}
+
+.home-profile-name {
+  margin-top: 6px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #2e7eb8;
+}
+
+.home-profile-title {
+  font-size: 1.25rem !important;
+  font-weight: 800;
+  color: #1a3a5c;
+  margin: 0 0 0.5rem;
+  line-height: 1.5;
+}
+
+.home-profile-desc {
+  font-size: 0.95rem;
+  color: #5a7a9a;
+  margin: 0 0 0.8rem;
+}
+
+.home-profile-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.home-profile-list li {
+  font-size: 0.92rem;
+  color: #1e2a3a;
+  line-height: 1.5;
+}
+
+/* カテゴリーナビ */
+.home-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+.home-cat-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.55rem 1.2rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.home-cat-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  text-decoration: none !important;
+}
+
+.cat-tensyoku  { background: #2563EB; color: #fff !important; }
+.cat-kaigai    { background: #CA8A04; color: #fff !important; }
+.cat-houmon    { background: #0891B2; color: #fff !important; }
+.cat-mensetsu  { background: #EA580C; color: #fff !important; }
+
+/* スマホ対応 */
+@media (max-width: 600px) {
+  .home-profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .home-profile-list {
+    align-items: flex-start;
+    text-align: left;
+  }
+  .home-profile-title {
+    font-size: 1.1rem !important;
+  }
+  .home-categories {
+    justify-content: center;
+  }
+  .home-info {
+    padding: 1.5rem 1.2rem;
+  }
 }
 
 /* ===================================================
