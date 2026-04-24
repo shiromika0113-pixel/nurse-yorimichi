@@ -24,6 +24,7 @@ params:
   cover:
     linkFullImages: true
     responsiveImages: true
+    hiddenInList: false
 
 menu:
   main:
