@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>日勤のみ on ナースのよりみち</title>
-    <link>http://localhost:1313/tags/%E6%97%A5%E5%8B%A4%E3%81%AE%E3%81%BF/</link>
+    <link>https://nurse-yorimichi.com/tags/%E6%97%A5%E5%8B%A4%E3%81%AE%E3%81%BF/</link>
     <description>Recent content in 日勤のみ on ナースのよりみち</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 24 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%97%A5%E5%8B%A4%E3%81%AE%E3%81%BF/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nurse-yorimichi.com/tags/%E6%97%A5%E5%8B%A4%E3%81%AE%E3%81%BF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>看護師が夜勤なしで働く方法｜日勤のみ求人の探し方と職場の選び方</title>
-      <link>http://localhost:1313/posts/kango-yakin-nashi-hatarakikata/</link>
+      <link>https://nurse-yorimichi.com/posts/kango-yakin-nashi-hatarakikata/</link>
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/kango-yakin-nashi-hatarakikata/</guid>
+      <guid>https://nurse-yorimichi.com/posts/kango-yakin-nashi-hatarakikata/</guid>
       <description>夜勤なしで働ける看護師の職場8選・メリットデメリット・日勤のみ求人の探し方を現役訪問看護師が解説。健診センター・産業保健師・クリニックなど、自分に合う働き方が見つかります。</description>
     </item>
   </channel>

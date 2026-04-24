@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>面接対策 on ナースのよりみち</title>
-    <link>http://localhost:1313/tags/%E9%9D%A2%E6%8E%A5%E5%AF%BE%E7%AD%96/</link>
+    <link>https://nurse-yorimichi.com/tags/%E9%9D%A2%E6%8E%A5%E5%AF%BE%E7%AD%96/</link>
     <description>Recent content in 面接対策 on ナースのよりみち</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 21 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E9%9D%A2%E6%8E%A5%E5%AF%BE%E7%AD%96/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nurse-yorimichi.com/tags/%E9%9D%A2%E6%8E%A5%E5%AF%BE%E7%AD%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>「なぜ企業に？」に答える転職理由・志望動機の作り方｜臨床経験をそのまま強みに変えるフレームワーク</title>
-      <link>http://localhost:1313/posts/tensyoku-riyu-shibo-doki/</link>
+      <link>https://nurse-yorimichi.com/posts/tensyoku-riyu-shibo-doki/</link>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/tensyoku-riyu-shibo-doki/</guid>
+      <guid>https://nurse-yorimichi.com/posts/tensyoku-riyu-shibo-doki/</guid>
       <description>看護師が企業転職の面接で必ず聞かれる転職理由・志望動機の作り方を解説。ネガティブな本音をポジティブに変換するフレームワークと、産業保健師・CRC・MR別の例文を紹介します。</description>
     </item>
     <item>
       <title>産業保健師を目指す看護師の書類・面接対策 完全マニュアル｜職務経歴書の書き方から面接の答え方まで</title>
-      <link>http://localhost:1313/posts/shurui-mensetsu-kanzen-manual/</link>
+      <link>https://nurse-yorimichi.com/posts/shurui-mensetsu-kanzen-manual/</link>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/shurui-mensetsu-kanzen-manual/</guid>
+      <guid>https://nurse-yorimichi.com/posts/shurui-mensetsu-kanzen-manual/</guid>
       <description>産業保健師志望の看護師向け書類・面接対策完全マニュアル。職務経歴書の構成・看護経験の変換例・自己PR・志望動機の例文・面接頻出質問への答え方を徹底解説します。</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>志望動機 on ナースのよりみち</title>
-    <link>http://localhost:1313/tags/%E5%BF%97%E6%9C%9B%E5%8B%95%E6%A9%9F/</link>
+    <link>https://nurse-yorimichi.com/tags/%E5%BF%97%E6%9C%9B%E5%8B%95%E6%A9%9F/</link>
     <description>Recent content in 志望動機 on ナースのよりみち</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 21 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%BF%97%E6%9C%9B%E5%8B%95%E6%A9%9F/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nurse-yorimichi.com/tags/%E5%BF%97%E6%9C%9B%E5%8B%95%E6%A9%9F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>「なぜ企業に？」に答える転職理由・志望動機の作り方｜臨床経験をそのまま強みに変えるフレームワーク</title>
-      <link>http://localhost:1313/posts/tensyoku-riyu-shibo-doki/</link>
+      <link>https://nurse-yorimichi.com/posts/tensyoku-riyu-shibo-doki/</link>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/tensyoku-riyu-shibo-doki/</guid>
+      <guid>https://nurse-yorimichi.com/posts/tensyoku-riyu-shibo-doki/</guid>
       <description>看護師が企業転職の面接で必ず聞かれる転職理由・志望動機の作り方を解説。ネガティブな本音をポジティブに変換するフレームワークと、産業保健師・CRC・MR別の例文を紹介します。</description>
     </item>
   </channel>
