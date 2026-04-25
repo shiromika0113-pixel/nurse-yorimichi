@@ -383,39 +383,6 @@ a:hover {
 }
 
 /* ===================================================
-   ホーム 2カラムレイアウト（メイン＋サイドバー）
-   =================================================== */
-.home-layout {
-  display: grid;
-  grid-template-columns: 1fr 280px;
-  gap: 2rem;
-  align-items: start;
-}
-
-.home-main {
-  min-width: 0;
-}
-
-.home-sidebar {
-  position: sticky;
-  top: 80px;
-  background-color: #ffffff;
-  border: 1px solid #c4d8ee;
-  border-radius: 12px;
-  padding: 1.2rem 1.4rem;
-}
-
-@media (max-width: 900px) {
-  .home-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .home-sidebar {
-    position: static;
-  }
-}
-
-/* ===================================================
    ホームウィジェット（タグクラウド・人気記事）
    =================================================== */
 .home-widget {
