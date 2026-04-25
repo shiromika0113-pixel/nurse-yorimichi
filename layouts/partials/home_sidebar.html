@@ -1,0 +1,52 @@
+<aside class="home-sidebar">
+
+  <!-- ========== よく検索されるワード ========== -->
+  <div class="home-widget">
+    <h2 class="home-widget-title">🔍 よく検索されるワード</h2>
+    <div class="home-tag-cloud">
+      {{- range $name, $taxonomy := site.Taxonomies.tags }}
+        <a href="/tags/{{ $name | urlize }}/" class="home-tag-item">
+          {{ $name }} <span class="home-tag-count">{{ len $taxonomy }}</span>
+        </a>
+      {{- end }}
+    </div>
+  </div>
+
+  <!-- ========== よく読まれている記事 ========== -->
+  <div class="home-widget">
+    <h2 class="home-widget-title">📖 よく読まれている記事</h2>
+    <ul class="home-popular-list">
+      <li>
+        <a href="/posts/sangyohokenshi-tensyoku/">
+          <span class="home-popular-rank">1</span>
+          産業保健師に33歳・未経験から転職した話
+        </a>
+      </li>
+      <li>
+        <a href="/posts/tensyoku-riyu-shibo-doki/">
+          <span class="home-popular-rank">2</span>
+          転職理由・志望動機の書き方【例文つき】
+        </a>
+      </li>
+      <li>
+        <a href="/posts/shurui-mensetsu-kanzen-manual/">
+          <span class="home-popular-rank">3</span>
+          種類別・面接完全マニュアル
+        </a>
+      </li>
+      <li>
+        <a href="/posts/tensyoku-agent-katsuyojutsu/">
+          <span class="home-popular-rank">4</span>
+          転職エージェント活用術
+        </a>
+      </li>
+      <li>
+        <a href="/posts/houmon-kango-tensyoku-guide/">
+          <span class="home-popular-rank">5</span>
+          訪問看護師への転職完全ガイド
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
