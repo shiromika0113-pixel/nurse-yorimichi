@@ -486,6 +486,30 @@ a:hover {
 .home-popular-list li:nth-child(3) .home-popular-rank { background-color: #c07840; }
 
 /* ===================================================
+   アフィリエイトボタン
+   =================================================== */
+.affiliate-btn {
+  display: inline-block;
+  background-color: #e8530a;
+  color: #ffffff !important;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.75rem 1.8rem;
+  border-radius: 50px;
+  text-decoration: none !important;
+  box-shadow: 0 4px 12px rgba(232, 83, 10, 0.35);
+  transition: background-color 0.2s, transform 0.15s, box-shadow 0.2s;
+  margin: 0.6rem 0;
+}
+
+.affiliate-btn:hover {
+  background-color: #c44208;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(232, 83, 10, 0.45);
+  color: #ffffff !important;
+}
+
+/* ===================================================
    四コマ漫画
    =================================================== */
 .manga-4koma {
