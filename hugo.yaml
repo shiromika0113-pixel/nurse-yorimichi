@@ -22,7 +22,7 @@ params:
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
   cover:
-    linkFullImages: true
+    linkFullImages: false
     responsiveImages: true
     hiddenInList: false
 
