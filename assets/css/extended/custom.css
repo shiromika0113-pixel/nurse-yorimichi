@@ -789,6 +789,104 @@ hr {
 }
 
 /* ===================================================
+   callout ボックス
+   =================================================== */
+.callout {
+  border-radius: 10px;
+  margin: 1.8rem 0;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.callout-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1.1rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.callout-icon {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.callout-body {
+  padding: 0.9rem 1.2rem;
+  font-size: 0.96rem;
+  line-height: 1.85;
+}
+
+.callout-body p:first-child { margin-top: 0; }
+.callout-body p:last-child  { margin-bottom: 0; }
+.callout-body ul, .callout-body ol {
+  margin: 0.4rem 0 0.2rem 1.2rem;
+  padding: 0;
+}
+.callout-body li { margin-bottom: 0.3rem; }
+
+/* point（青） */
+.callout-point .callout-header {
+  background-color: #2e7eb8;
+  color: #ffffff;
+}
+.callout-point .callout-body {
+  background-color: #e8f4fc;
+  color: #1e2a3a;
+  border: 1px solid #b0d4ee;
+  border-top: none;
+}
+
+/* check（緑） */
+.callout-check .callout-header {
+  background-color: #2e9e6e;
+  color: #ffffff;
+}
+.callout-check .callout-body {
+  background-color: #e6f7ef;
+  color: #1e2a3a;
+  border: 1px solid #a3dcc0;
+  border-top: none;
+}
+
+/* warning（オレンジ） */
+.callout-warning .callout-header {
+  background-color: #d97706;
+  color: #ffffff;
+}
+.callout-warning .callout-body {
+  background-color: #fff7e6;
+  color: #1e2a3a;
+  border: 1px solid #f5cc85;
+  border-top: none;
+}
+
+/* memo（黄） */
+.callout-memo .callout-header {
+  background-color: #b7920a;
+  color: #ffffff;
+}
+.callout-memo .callout-body {
+  background-color: #fefce8;
+  color: #1e2a3a;
+  border: 1px solid #e9d87a;
+  border-top: none;
+}
+
+/* experience（ピンク） */
+.callout-experience .callout-header {
+  background-color: #be4a7c;
+  color: #ffffff;
+}
+.callout-experience .callout-body {
+  background-color: #fdf0f5;
+  color: #1e2a3a;
+  border: 1px solid #f0b8cf;
+  border-top: none;
+}
+
+/* ===================================================
    見出しアンカーリンク（＃）を非表示
    =================================================== */
 .anchor {

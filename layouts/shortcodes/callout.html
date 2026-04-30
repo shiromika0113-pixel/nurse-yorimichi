@@ -1,0 +1,25 @@
+{{- $type := .Get "type" | default "point" -}}
+{{- $title := .Get "title" -}}
+{{- $icons := dict
+  "point"      "💡"
+  "check"      "✅"
+  "warning"    "⚠️"
+  "memo"       "📝"
+  "experience" "🙋"
+-}}
+{{- $defaultTitles := dict
+  "point"      "ポイント"
+  "check"      "チェック"
+  "warning"    "注意"
+  "memo"       "豆知識"
+  "experience" "体験談"
+-}}
+{{- $icon  := index $icons $type | default "💡" -}}
+{{- $label := cond (ne $title "") $title (index $defaultTitles $type | default "ポイント") -}}
+<div class="callout callout-{{ $type }}">
+  <div class="callout-header">
+    <span class="callout-icon">{{ $icon }}</span>
+    <span class="callout-title">{{ $label }}</span>
+  </div>
+  <div class="callout-body">{{ .Inner | markdownify }}</div>
+</div>
