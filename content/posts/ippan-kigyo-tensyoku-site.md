@@ -3,7 +3,7 @@ title: "看護師から一般企業へ転職したい方へおすすめ【転職
 date: 2026-04-25
 draft: false
 tags: ["転職", "産業保健師", "一般企業転職", "転職サイト"]
-categories: ["転職キャリア"]
+categories: ["転職・キャリア"]
 description: "看護師から一般企業への転職に使えるおすすめ転職サービスと、実際に使ってみたリアルな感想を解説。産業保健師を目指す方向けの特化エージェントも紹介しています。"
 cover:
   image: "/images/ippan-kigyo-tensyoku-site.png"

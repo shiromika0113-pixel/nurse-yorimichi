@@ -3,7 +3,7 @@ title: "看護師が保健師免許を社会人から取る方法｜ルート・
 slug: "hokenshi-menkyo-shakaijin"
 date: 2026-04-28
 tags: ["保健師", "資格", "看護師転職", "産業保健師", "キャリア"]
-categories: ["転職キャリア"]
+categories: ["転職・キャリア"]
 description: "社会人看護師が保健師免許を取る4つのルートを費用・期間・難易度で比較。専門実践教育訓練給付金（最大80%）など支援制度も徹底解説。30社以上応募した転職活動の体験談つき。"
 cover:
   image: "/images/hokenshi-menkyo-shakaijin.png"

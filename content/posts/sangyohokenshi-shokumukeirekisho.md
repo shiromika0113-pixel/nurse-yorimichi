@@ -3,7 +3,7 @@ title: "産業保健師に転職したい看護師のための職務経歴書｜
 slug: "sangyohokenshi-shokumukeirekisho"
 date: 2026-05-03
 tags: ["産業保健師", "転職", "職務経歴書", "看護師転職", "キャリア"]
-categories: ["転職キャリア"]
+categories: ["転職・キャリア"]
 description: "産業保健師への転職で職務経歴書に詰まった看護師へ。AIを使ってゼロから仕上げる5ステップとコピペ使えるプロンプト集を完全公開。実体験をもとに書き方を解説。"
 cover:
   image: /images/sangyohokenshi-shokumukeirekisho.png

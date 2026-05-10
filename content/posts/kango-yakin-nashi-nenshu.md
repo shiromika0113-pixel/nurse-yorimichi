@@ -3,7 +3,7 @@ title: "看護師が夜勤なしで稼ぐ方法｜平均年収・手取りの実
 slug: "kango-yakin-nashi-nenshu"
 date: 2026-04-29
 tags: ["夜勤なし", "看護師年収", "手取り", "働き方", "キャリア"]
-categories: ["転職キャリア"]
+categories: ["転職・キャリア"]
 description: "看護師が夜勤なしで働いたときの平均年収・手取りの実態を解説。夜勤ありとの収入差・高収入を狙える職場6選・求人の探し方まで現役看護師が体験談をもとに紹介します。"
 cover:
   image: /images/kango-yakin-nashi-nenshu.png

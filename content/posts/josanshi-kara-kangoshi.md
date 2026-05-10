@@ -3,7 +3,7 @@ title: "助産師を辞めて看護師へ。私がキャリアチェンジを選
 date: 2026-04-27
 draft: false
 tags: ["助産師", "看護師", "キャリアチェンジ", "転職", "体験談"]
-categories: ["転職キャリア"]
+categories: ["転職・キャリア"]
 description: "助産師を辞めて看護師にキャリアチェンジした体験談。厚生労働省データに基づく就業者数・求人倍率・年収比較、産科混合病棟の実態、3つのキャリアパス、転職タイミングまで一次情報で解説します。"
 cover:
   image: /images/josanshi-kara-kangoshi.png

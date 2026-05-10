@@ -3,7 +3,7 @@ title: "看護師のWeb面接（オンライン面接）対策完全ガイド｜
 slug: "kangoshi-web-mensetsu"
 date: 2026-05-05
 tags: ["面接対策", "転職", "看護師転職", "Web面接", "オンライン面接"]
-categories: ["転職キャリア"]
+categories: ["転職・キャリア"]
 description: "Web面接が不安な看護師向けに、環境準備・話し方・失敗パターン・医療職特有の注意点を徹底解説。前日からできる準備と当日のコツをまとめました。"
 cover:
   image: /images/kangoshi-web-mensetsu.png
