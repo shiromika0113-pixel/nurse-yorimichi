@@ -5,6 +5,7 @@ theme: PaperMod
 hasCJKLanguage: true
 paginate: 10
 googleAnalytics: "G-490J7GGGLP"
+enableRobotsTXT: true
 
 markup:
   goldmark:
@@ -12,10 +13,15 @@ markup:
       unsafe: true
   tableOfContents:
     startLevel: 2
-    endLevel: 2
+    endLevel: 3
     ordered: false
 
 params:
+  env: production
+  description: "現役看護師・保健師のとしが書く、転職・キャリア・ワーホリのリアルな体験ブログ。"
+  author: とし
+  schema:
+    publisherType: Person
   homeInfoParams:
     Title: "ナースのよりみち へようこそ"
     Content: "現役看護師が書く、仕事・生活・学びのブログです。"

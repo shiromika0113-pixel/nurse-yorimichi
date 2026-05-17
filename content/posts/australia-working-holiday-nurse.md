@@ -4,7 +4,7 @@ slug: "australia-working-holiday-nurse"
 date: 2026-05-13
 tags: ["ワーキングホリデー", "オーストラリア", "看護師", "海外就労", "看護師転職"]
 categories: ["海外・ワーホリ"]
-description: "看護師のオーストラリアワーホリを実体験で完全解説。費用総額の目安・ビザ申請の手順・Certificate III取得・英語ゼロから介護現場で働いた話・帰国後の転職活動まで、損しないコツをすべて公開します。"
+description: "看護師のオーストラリアワーホリを実体験で完全解説。費用の目安・ビザ申請・Certificate III取得・英語ゼロで介護現場で働いた体験・帰国後の転職活動まで公開します。"
 cover:
   image: /images/australia-working-holiday-nurse.png
   alt: "看護師がオーストラリアワーホリで介護資格Certificate IIIを取得し現地で働くまでの流れ"
