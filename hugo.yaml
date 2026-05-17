@@ -21,6 +21,8 @@ params:
   ShowReadingTime: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
+  ShowToc: true
+  TocOpen: true
   cover:
     linkFullImages: false
     responsiveImages: true
