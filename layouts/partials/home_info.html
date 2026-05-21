@@ -32,9 +32,11 @@
     <h2 class="home-widget-title">🔍 よく検索されるワード</h2>
     <div class="home-tag-cloud">
       {{- range $name, $taxonomy := site.Taxonomies.tags }}
+        {{- if ge (len $taxonomy) 2 }}
         <a href="/tags/{{ $name | urlize }}/" class="home-tag-item">
           {{ $name }} <span class="home-tag-count">{{ len $taxonomy }}</span>
         </a>
+        {{- end }}
       {{- end }}
     </div>
   </div>
